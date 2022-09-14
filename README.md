@@ -1,3 +1,10 @@
+My chat app. Created using : ReactJS+Redux(thunk), SCSS on `grid and flex`, axios and Chuck Norris Jokes API for responding messages =)
+
+    
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
