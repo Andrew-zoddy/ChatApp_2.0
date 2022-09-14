@@ -1,0 +1,53 @@
+.chatter_layout {
+  display: grid;
+  grid-template-rows: 1fr;
+
+
+  .chatter_container {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    background: white;
+
+    &:hover {
+      background: #104432;
+      color: white;
+    }
+
+    .image_block {
+
+      .chatterImage {
+        object-fit: cover;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+    }
+
+    .text_block {
+      display: grid;
+      grid-template-columns: 5fr 1fr;
+
+      .chatter_info {
+
+        .chatterName {
+          font-size: 1.6rem;
+          margin-bottom: 0.7rem;
+        }
+
+        .chatterLastMessage {
+          height: 2rem;
+          overflow: hidden;
+        }
+      }
+
+      .date_info {
+
+      }
+
+    }
+
+  }
+}

@@ -1,0 +1,85 @@
+.opponentMessage_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.1rem;
+  width: 80%;
+
+  .opponent_message_block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .opponent_image {
+      object-fit: cover;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+    }
+  }
+
+  .opponent_text_block {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+    .opponent_message {
+      font-size: 1.3rem;
+      background: cadetblue;
+      border-radius: 25px;
+      padding: 1rem;
+      line-height: 1.4rem;
+
+    }
+  }
+
+  .date_info {
+    padding-left: 5rem;
+  }
+}
+
+.userMessage_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0.1rem;
+  width: 80%;
+  transform: translate(23%);
+
+  .user_message_block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+
+
+    .user_image {
+      object-fit: cover;
+      width: 3rem;
+      height: 3rem;
+
+    }
+  }
+
+  .user_text_block {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+    .user_message {
+      font-size: 1.3rem;
+      background: rgba(178, 175, 175, 0.84);
+      border-radius: 25px;
+      padding: 1rem;
+      line-height: 1.4rem;
+
+    }
+
+  }
+
+  .date_info {
+    padding-right: 5rem;
+  }
+
+
+}
